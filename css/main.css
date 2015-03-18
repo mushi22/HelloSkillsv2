@@ -751,7 +751,7 @@ overflow: hidden;
 position: absolute;
 }
 
-#slide1 {background-image: url(http://i.imgur.com/31SD1D6.jpg);}
+#slide1 {background-image: url(http://i.imgur.com/shnewkr.jpg);}
 #slide2 {background-image: url(../example/slide2.jpg);}
 #slide3 {background-image: url(../example/slide3.jpg);}
 
@@ -773,12 +773,13 @@ visibility: hidden;
 .slide_description h3 {
 font-size: 20px;
 font-weight: 300;
+color: #fff;
 }
 .slide_description h2 {
 font-size: 70px;
-font-weight: 700;
+font-weight: 800;
 margin-top: 10px;
-color: #10EC5A;
+color: #fff;
 
 }
 .slide_description.white h2, 
