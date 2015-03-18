@@ -612,7 +612,7 @@ background-color: #335DDC;
 }
 
 .darkgrey_section, [class*="_section"] .darkgrey_section {
-background-color: #335DDC;
+background-color: #FFFFFF;
 color:#db325a;
 }
 .darkgrey_section h1, [class*="_section"] .darkgrey_section h1,
@@ -621,13 +621,13 @@ color:#db325a;
 .darkgrey_section h4, [class*="_section"] .darkgrey_section h4,
 .darkgrey_section h5, [class*="_section"] .darkgrey_section h5,
 .darkgrey_section h6, [class*="_section"] .darkgrey_section h6 {
-color: #fff;
+color: #db325a;
 }
 .darkgrey_section a, [class*="_section"] .darkgrey_section a {
 color: #db325a;
 }
 .darkgrey_section a:hover, [class*="_section"] .darkgrey_section a:hover {
-color: #fff;
+color: #db325a;
 }
 .darkgrey_section a[class^="socialico-"]:before, 
 [class*="_section"] .darkgrey_section a[class^="socialico-"]:before  {}
