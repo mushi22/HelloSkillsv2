@@ -751,7 +751,7 @@ overflow: hidden;
 position: absolute;
 }
 
-#slide1 {background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSs002WmlFwkKJEH3lsO5f5BkZYso7aUvg86wyjvbQp3lfD8x2R);}
+#slide1 {background-image: url(http://i.imgur.com/31SD1D6.jpg);}
 #slide2 {background-image: url(../example/slide2.jpg);}
 #slide3 {background-image: url(../example/slide3.jpg);}
 
@@ -887,10 +887,14 @@ margin: 0;
 #info h1 {
 font-size: 50px;
 margin: 0;
+color: white;
+  text-shadow: 1px 1px 1px black;
 }
 #info h3 {
 font-size: 30px;
 margin: 10px 0 30px;
+color: white;
+  text-shadow: 1px 1px 1px black;
 }
 #info .theme_btn {
 margin-top: 18px;
