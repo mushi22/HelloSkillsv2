@@ -21,6 +21,33 @@ prettyPhoto 			- In this section are styles for prettyPhoto LightBox plugin.
 
 */
 
+.classes .with-icon {
+	display: none;
+}
+
+#toTop {
+    opacity: 0.2
+}
+
+#toTop:hover {
+    opacity: 1;
+}
+
+.header_email {
+  font-size: 2em;
+  font-weight: 700;
+  color: black;
+  width: 400px;
+  padding: 10px;
+}
+
+/*temporary disabling links*/
+.classes a {
+    pointer-events: none;
+    cursor: default;
+}
+
+
 
 /*** bootstrap override ***/
 .nav>li>a {
@@ -188,6 +215,9 @@ transition: all 0.15s linear;
 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
 background-color: #262626;
 }
+.table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th {
+background-color: #428bca;
+}
 .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
 border-color: #474747;
 }
@@ -266,9 +296,16 @@ font-family: 'Raleway', sans-serif;
 line-height: 1;
 font-weight: 300;
 color: #272727;
+text-shadow: 1px 1px 1px black;
 }
 p{
 margin-bottom: 16px;
+}
+
+h2 span {
+	font-size: 0.8em;
+	color: #db325a;
+	text-shadow: 1px 1px 1px grey;
 }
 
 blockquote, .blockquote {
@@ -378,9 +415,10 @@ background-color: #fff;
 
 /*** buttons ***/
 .theme_btn {
-font-size: 13px;
+font-size: 2em;
 font-weight: 700;
-background-color: transparent; 
+background-color: #db325a;
+opacity: 0.8; 
 padding: 20px 29px;
 color: #fff;
 border:3px solid #db325a;
